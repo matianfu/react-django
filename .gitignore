@@ -1,0 +1,10 @@
+# folders
+node_modules/
+assets/bundles
+
+# log
+*.log
+
+# python compiled
+*.pyc
+

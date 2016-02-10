@@ -1,0 +1,25 @@
+{
+  "name": "mininas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack",
+    "simple-server": "node_modules/.bin/webpack-dev-server --content-base home/templates/ --host 0.0.0.0 --port 80"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.1",
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "webpack": "^1.12.13",
+    "webpack-bundle-tracker": "0.0.93",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
