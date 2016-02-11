@@ -5,6 +5,10 @@ assets/bundles
 # log
 *.log
 
+# vi swap
+*.swp
+
 # python compiled
 *.pyc
 
+webpack-stats.json
